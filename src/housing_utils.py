@@ -62,3 +62,7 @@ def fit_baseline_model(df: pd.DataFrame):
         data=df
     ).fit()
     return model
+
+
+# We exclude living_area, kitchen_area, and number_of_rooms from the baseline model
+# because they overlap strongly with total area and may create multicollinearity.
