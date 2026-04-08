@@ -10,7 +10,7 @@ How do apartment characteristics such as size, metro accessibility, region, apar
 - `moscow_project.ipynb`: main analysis notebook
 - `src/housing_utils.py`: reusable functions
 - `tests/`: unit and integration tests
-- `data/data FINAL.csv`: dataset
+- `data/data_moscow.csv`: dataset
 
 ## Setup
 ```bash
